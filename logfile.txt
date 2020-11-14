@@ -1,0 +1,98 @@
+окт 23, 2020 12:26:23 AM com.famcs.Main main
+FINE: Program started...
+
+окт 23, 2020 12:26:41 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_SHORT_NAME::Acmp, Companies found: 1
+
+окт 23, 2020 12:31:54 AM com.famcs.Main main
+FINE: Program started...
+
+окт 23, 2020 1:03:11 AM com.famcs.Main main
+FINE: Program started...
+
+окт 23, 2020 1:03:40 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_DEPARTMENT::Bspere, Companies found: 0
+
+окт 23, 2020 1:03:53 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_DEPARTMENT::Bshpere, Companies found: 0
+
+окт 23, 2020 1:04:13 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_DEPARTMENT::Bddress, Companies found: 0
+
+окт 23, 2020 1:04:26 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_ACTIVITY::Bspere, Companies found: 0
+
+окт 23, 2020 1:04:49 AM com.famcs.Main main
+FINE: Program started...
+
+окт 23, 2020 1:05:02 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_SHORT_NAME::Bcmp, Companies found: 1
+
+окт 23, 2020 1:05:10 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_DEPARTMENT::Bsphere, Companies found: 1
+
+окт 23, 2020 1:05:38 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_ACTIVITY::Ectivity, Companies found: 1
+
+окт 23, 2020 1:06:23 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_FOUNDATION_DATE::01.01.2001 31.12.2010, Companies found: 5
+
+окт 23, 2020 1:06:37 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_EMPLOYEE_NUMBER::0 10, Companies found: 0
+
+окт 23, 2020 1:06:43 AM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_EMPLOYEE_NUMBER::0 10000, Companies found: 5
+
+окт 23, 2020 1:06:47 AM com.famcs.Main getCompaniesByRequest
+FINE: EXIT
+
+ноя 14, 2020 6:56:31 PM com.famcs.Main main
+FINE: Program started...
+
+ноя 14, 2020 6:56:38 PM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_SHORT_NAME::Acmp, Companies found: 1
+
+ноя 14, 2020 6:56:41 PM com.famcs.Main getCompaniesByRequest
+FINE: EXIT
+
+ноя 14, 2020 6:57:57 PM com.famcs.Main main
+FINE: Program started...
+
+ноя 14, 2020 6:57:59 PM com.famcs.Main getCompaniesByRequest
+FINE: EXIT
+
+ноя 14, 2020 6:57:59 PM com.famcs.Main processRequest
+FINE: SQL request: select * from company_table where shortname = "acmp"
+		Companies found: 1
+ 
+ноя 14, 2020 7:09:24 PM com.famcs.Main main
+FINE: Program started...
+
+ноя 14, 2020 7:09:27 PM com.famcs.Main getCompaniesByRequest
+FINE: EXIT
+
+ноя 14, 2020 7:09:27 PM com.famcs.Main processRequest
+FINE: SQL request: select * from company_table where shortname = "acmp"
+		Companies found: 1
+ 
+ноя 14, 2020 7:19:41 PM com.famcs.Main main
+FINE: Program started...
+
+ноя 14, 2020 7:19:52 PM com.famcs.Main getCompaniesByRequest
+FINE: Find company BY_ACTIVITY::Activity, Companies found: 1
+
+ноя 14, 2020 7:19:55 PM com.famcs.Main getCompaniesByRequest
+FINE: EXIT
+
+ноя 14, 2020 7:19:55 PM com.famcs.Main processRequest
+FINE: SQL request: select * from company_table where shortname = "acmp"
+		Companies found: 1
+ 
+ноя 14, 2020 7:19:55 PM com.famcs.Main processRequest
+FINE: SQL request: select * from company_table where activity_type = "bctivity"
+		Companies found: 1
+ 
+ноя 14, 2020 7:19:55 PM com.famcs.Main processRequest
+FINE: SQL request: select * from company_table where employee_number between 300 and 500
+		Companies found: 3
+ 

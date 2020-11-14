@@ -1,0 +1,3 @@
+select * from company_table where shortname = "Acmp"
+select * from company_table where activity_type = "Bctivity"
+select * from company_table where employee_number between 300 and 500
